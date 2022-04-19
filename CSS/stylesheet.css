@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Courgette, cursive;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(134, 0, 45, 1);
+}
+
+a:hover {
+  color: rgba(87, 0, 29, 1);
+}
+
+a:active {
+  color: rgba(209, 0, 70, 1);
+}
+
+/* ----------------------HEADER ELEMENT---------------------- */
+
+header {
+  height: 130px;
+  width: 100%;
+  background-image: url("../afbeeldingen/back4.jpg");
+
+}
+
+.header_cover {
+  background-color: rgba(251, 143, 255, 0.5);
+  height: 130px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 4.5rem;
+  letter-spacing: 0.15rem;
+  margin-left: 150px;
+  color: rgba(134, 0, 45, 1);
+}
+
+ul {
+  margin-right: 150px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+li {
+  border-left: solid 5px rgba(134, 0, 45, 1);
+}
+
+li a {
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  width: 150px;
+}
+
+
+/* ----------------------HEADER ELEMENT END---------------------- */
+/* ----------------------MAIN ELEMENT START---------------------- */
+
+main {
+  background-color: rgba(252, 222, 252, 0.7);
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  padding: 20px;
+}
+
+#index_section {
+  display: flex;
+}
+
+
+h2 {
+  display: inline-block;
+  margin-bottom: 40px;
+  color: rgba(134, 0, 45, 1);
+}
+
+#h2_CV {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.title_paragraph {
+  width: 50%;
+}
+
+.title_paragraph p {
+  color: rgba(134, 0, 45, 1);
+}
+
+.image_container {
+  width: 50%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image_container img {
+  width: 240px;
+  box-shadow: 7px 7px 10px black;
+  transition: width 1s;
+}
+
+.image_container img:hover {
+  width: 300px;
+}
+
+/* ------Tables------ */
+
+table {
+  margin: 20px 0;
+  text-align: left;
+  width: 40%;
+  color: rgba(134, 0, 45, 1);
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid rgba(87, 0, 29, 1);
+}
+
+thead {
+  background-color: rgba(134, 0, 45, 1);
+  color: rgba(252, 222, 252, 0.7);
+}
+
+thead tr th {
+  padding: 7px 5px;
+}
+
+td {
+  border: 1px solid rgba(87, 0, 29, 1);
+  padding-left: 5px;
+}
+
+
+/* ------Form------ */
+
+form {
+  width: 50%;
+  margin: 50px auto;
+  color: rgba(134, 0, 45, 1);
+}
+
+legend {
+  font-size: 2rem;
+  font-weight: bold;
+}
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+fieldset {
+  border-color: rgba(134, 0, 45, 1);
+  border-radius: 3px;
+}
+fieldset div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+fieldset div input {
+  font-size: 1.5rem;
+  padding: 5px;
+  color: rgba(134, 0, 45, 1);
+}
+
+textarea {
+  width: 100%;
+  font-size: 1.2rem;
+  color: rgba(134, 0, 45, 1);
+  padding: 15px;
+}
+
+input,
+textarea {
+  border-color: rgba(134, 0, 45, 1);
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: inset 0px 0px 10px rgba(134, 0, 45, 0.3);
+}
+
+button {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: rgba(134, 0, 45, 1);
+  background-color: rgba(251, 143, 255, 0.5);
+  border-radius: 10px;
+  border-color: rgba(134, 0, 45, 1);
+}
+
+button:hover {
+  background-color: rgba(251, 143, 255, 0.3);
+}
+
+button:active {
+  background-color: rgba(251, 143, 255, 0.7);
+}
+
+
+
+/* ----------------------MAIN ELEMENT END---------------------- */
+/* ----------------------FOOTER ELEMENT START---------------------- */
+footer {
+  height: 80px;
+  width: 100%;
+  background-image: url("../afbeeldingen/back4.jpg");
+  font-weight: bold;
+  color: rgba(134, 0, 45, 1);
+}
+
+.footer_cover {
+  background-color: rgba(251, 143, 255, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  margin-left: 150px;
+}
+
+footer a {
+  margin-right: 150px;
+}
+/* ----------------------FOOTER ELEMENT END---------------------- */
